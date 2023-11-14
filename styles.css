@@ -1,5 +1,19 @@
 @charset "UTF-8";
 body {
-	border: dotted;
+	border: dashed;
 	background-color: #E1C3C3;
+	font-family: inherit;
+}
+img {
+	border: dotted;
+}
+title {
+	color: inherit;
+	font-style: normal;
+}
+body p {
+	background-color: green;
+}
+h1 {
+	color: #78E99E;
 }
