@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("Agbalumo_Regular/stylesheet.css");
 body {
 	border: dashed;
 	background-color: #E1C3C3;
@@ -15,8 +16,9 @@ body p {
 	background-color: green;
 }
 h1 {
-	color: #78E99E;
+	color: #363995;
 	text-align: center;
+	font-family: "Agbalumo Regular";
 }
 img {
 }
