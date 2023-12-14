@@ -11,3 +11,42 @@ div:nth-child(odd) {
 li:nth-child(even) {
     color: rgb(219, 7, 7);
 }
+/* Apply white-space property to a specific element with class 'example' */
+.example {
+    white-space: nowrap;
+}
+
+/* Apply white-space property to all paragraphs */
+p {
+    white-space: pre-line;
+}
+/* Transform all text in an element to uppercase */
+.uppercase-text {
+    text-transform: uppercase;
+}
+
+/* Transform all text in an element to lowercase */
+.lowercase-text {
+    text-transform: lowercase;
+}
+
+/* Capitalize the first character of each word in an element */
+.capitalize-text {
+    text-transform: capitalize;
+}
+/* Apply box model to a div with class 'box' */
+.box {
+    /* Content properties */
+    width: 200px;
+    height: 100px;
+    background-color: #903333;
+    
+    /* Padding properties */
+    padding: 20px;
+
+    /* Border properties */
+    border: 2px solid #333;
+
+    /* Margin properties */
+    margin: 20px;
+}
